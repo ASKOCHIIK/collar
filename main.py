@@ -6,3 +6,14 @@ class Mentor:
     def info(self):
         return f'Hi my name is {self.name}\nMy last name {self.last_name}'
 
+
+class Bak(Mentor):
+    def __init__(self):
+        super().__init__('Baktybai', 'Sulaimanov')
+
+mentor = Mentor('Askat', 'Kulmanov')
+bak = Bak()
+
+print(bak.info())
+
+
