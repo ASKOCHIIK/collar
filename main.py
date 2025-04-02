@@ -5,5 +5,3 @@ class Mentor:
 
     def info(self):
         return f'Hi my name is {self.name}\nMy last name {self.last_name}'
-
-print("hello I'm Aiyma")
