@@ -32,3 +32,8 @@ class Abdulmumid(Mentor):
 
 abdulmumid = Abdulmumid('Abdulmumid', 'Mitalipov', 16)
 
+class Lecturer(Mentor):
+    def __init__(self,  name: str, last_name: str):
+        super().__init__(self, name, last_name)
+
+Rachid = Lecturer("Rachid", "dfsk")
