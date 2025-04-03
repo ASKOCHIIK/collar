@@ -19,7 +19,7 @@ print(bak.info())
 
 
 
-=======
+
 class Abdulmumid(Mentor):
     def __init__(self, name: str, last_name: str, age: int):
         super().__init__(name, last_name)
