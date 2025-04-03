@@ -7,6 +7,7 @@ class Mentor:
         return f'Hi my name is {self.name}\nMy last name {self.last_name}'
 
 
+
 class Bak(Mentor):
     def __init__(self):
         super().__init__('Baktybai', 'Sulaimanov')
@@ -17,4 +18,12 @@ bak = Bak()
 print(bak.info())
 
 
+
+=======
+class Abdulmumid(Mentor):
+    def __init__(self, name: str, last_name: str, age: int):
+        super().__init__(name, last_name)
+        self.age = age
+
+abdulmumid = Abdulmumid('Abdulmumid', 'Mitalipov', 16)
 
